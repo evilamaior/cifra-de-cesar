@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <main>
+    <section class="card">
+        <h1 class="card-body">
+          Digite a mensagem que deseja codificar ou decodificar
+        </h1>
+        <div class="input-group">
+          <textarea id="message" class="form-control textarea-style" aria-label="With textarea"></textarea>
+        </div>
+        <h1 class="card-body">
+            Digite a chave de codificação ou decodificação  
+          </h1>
+        <div class="input-group mb-3">
+          <input type="number" id="offset" class="form-control offset-style" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <button type="button" id="button-encode" class="btn-style btn btn-outline-warning">Codificar</button>
+        <button type="button" id="button-decode" class="btn-style btn btn-outline-warning">Decodificar</button>
+    </section>
+  </main>
+  <script src="message.js"></script> 
+  <script src="cipher.js"></script>
+  <script src="testes.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
